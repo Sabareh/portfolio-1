@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul  style="background: transparent; border: none;">
+            <li class="pr-30">
+                <a style="color: white; font-weight: bold;" href="#about">About</a>
+            </li>
+            <li class="">
+                <a href=""></a>
+            </li>
+            <li>
+                <a style="color: white; font-weight: bold;"  href="#projects">Projects</a>
+            </li>
+            <li class="">
+                <a href=""></a>
+            </li>
+            <li>
+                <a style="color: white; font-weight: bold;"  href="#skills">Skills</a>
+            </li>
+        </ul>
+    </header>
+    <div id="lead">
+        <div id="lead-content">
+            <h1 style="font-size: 6rem;">Jerome Mberia</h1>
+            <h2>Software Developer</h2>
+            <a href="#projects" class="btn-rounded-white">Projects</a>
+        </div>
+        <div id="lead-overlay"></div>
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="/assets/images/profile.jpg" alt="" width="200px" height="200px" style="border-radius: 50%;">
+                </div>
+                <div class="col-md-8">
+                    <h2 class="heading">About Me</h2>
+                    <p>
+                      AS from know a current Software Developer with my speciatity on python. 
+                    </p>
+                    <h3>Contacts</h3>
+                    <p><strong>Phone:</strong>0706142240</p>
+                    <p><strong>Email:</strong>jeromemberia@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="assets/images/awards.png" width="300"/>
+                    </div>
+                    <div class="project-info">
+                        <h3>Awwards-clone</h3>
+                        <p>
+                            Here I need to implement restful api(making an api).Python, Django and bootstrap was used to build this project. What your seeing on the screen is display rate which had to use python to get the avarage of the marks and dispaly them.
+                        </p>
+                        <a href="https://github.com/JeromeMberia/Awards-IP"><button style="border: none; padding: 15px; margin-right:20px ; border-radius: 30px; font-weight: bold; color: white;background-color: blue; margin-bottom: 10px;">Source Code</button></a>
+                        <a href="https://awwward--a.herokuapp.com/">Live Link</a>
+                    </div>
+                </div>
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="assets/images/quote.png" width="300"/>
+                    </div>
+                    <div class="project-info">
+                        <h3>Quote</h3>
+                        <p>
+                            This project was my first Angular project.The task was to make quote using Angular and bootstrap.
+                        </p>
+                        <a href="https://github.com/JeromeMberia/Quotes"><button style="border: none; padding: 15px; margin-right:20px ; border-radius: 30px; font-weight: bold; color: white;background-color: blue; ">Source Code</button></a>
+                        <a href="https://jeromemberia.github.io/Quotes/">Live Link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li style="border-radius: 40px; padding: 15px;">JavaScript</li>
+            <li style="border-radius: 40px; padding: 15px;">Python</li>
+            <li style="border-radius: 40px; padding: 15px;">HTML</li>
+            <li style="border-radius: 40px; padding: 15px;">CSS</li>
+            <li style="border-radius: 40px; padding: 15px;">Git</li>
+            <li style="border-radius: 40px; padding: 15px;">Angular</li>
+            <li style="border-radius: 40px; padding: 15px;">Postgesql</li>
+            <li style="border-radius: 40px; padding: 15px;">Flask</li>
+            <li style="border-radius: 40px; padding: 15px;">Django</li>
+        </ul>
+    </div>
+
+    <footer style="background-color: black;">
+        <div class="container bg-steel" >
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2020 Jerome Mberia
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="assets/js/scripts.min.js"></script>
+</body>
+
+</html>
